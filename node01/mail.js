@@ -7,15 +7,15 @@ const nodemailer = require("nodemailer");
         port: 465, // 端口号
         secure: true, // true for 465, false for other ports
         auth: {
-            user: '5628295@qq.com', // 发送方的邮箱地址
-            pass: 'mvgricbgwvjwbgei', // mtp验证码
+            user: '', // 发送方的邮箱地址
+            pass: '', // mtp验证码
         },
     });
 // 邮件信息
     let mailobj = {
-            from: '"Fred Foo 👻" <5628295@qq.com>', // sender address
-            to: "5628295@qq.com", // list of receivers
-            subject: "2020", // Subject line
+            from: '"Fred Foo 👻" <>', // sender address
+            to: "", // list of receivers
+            subject: "", // Subject line
             text: "Hello world?", // plain text body
             html: "<b>Hello world?</b>", // html body
     }

@@ -60,3 +60,17 @@
 url 统一资源定位符 uniform resource locator
 
 https:47.95.207.1:3000/fcj/recommend/hot/hehe?us=123&ps=567#nihao
+
+### 爬虫案例
+   1. 获取目标网站 http.get
+   2. 分析网站内容 cheerio 可以使用jq里的选择器
+   3. 获取网站信息 下载或者其他操作
+
+### 邮箱验证码案例
+注册案例
+   + nodemailer 可以实现发邮件
+   + npm install jquery --save
+   + npm 
+
+
+### 网络基本知识
